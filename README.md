@@ -81,7 +81,7 @@ Run the server using the MCP Inspector:
 **If running on GitHub Codespaces:**
 
 ```bash
-ALLOWED_ORIGINS=https://your-codespace-url.app.github.dev npx @modelcontextprotocol/inspector uv run gmail_mcp_server_questions.py
+ALLOWED_ORIGINS=https://your-codespace-url-6274.app.github.dev npx @modelcontextprotocol/inspector uv run gmail_mcp_server_questions.py
 ```
 
 Replace `your-codespace-url` with your actual Codespace URL.
