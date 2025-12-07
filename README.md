@@ -86,6 +86,8 @@ ALLOWED_ORIGINS=https://your-codespace-url-6274.app.github.dev npx @modelcontext
 
 Replace `your-codespace-url` with your actual Codespace URL.
 
+Inspector Proxy Address: https://your-codespace-url-6277.app.github.dev
+
 **If running locally:**
 
 ```bash
