@@ -19,6 +19,7 @@ The server uses the FastMCP framework to expose these capabilities as MCP tools 
 ```
 pydata_mcp_tutorial/
 ├── gmail_mcp_server_questions.py # Exercise version with placeholders
+├── gmail_mcp_server.py           # Complete version
 ├── .env.example                  # Environment variables template
 └── README.md                     # This file
 ```
@@ -83,7 +84,7 @@ Run the server using the MCP Inspector:
 **If running on GitHub Codespaces:**
 
 ```bash
-ALLOWED_ORIGINS=https://your-codespace-url-6274.app.github.dev npx @modelcontextprotocol/inspector uv run gmail_mcp_server_questions.py
+ALLOWED_ORIGINS=https://your-codespace-url-6274.app.github.dev npx @modelcontextprotocol/inspector uv run gmail_mcp_server.py
 ```
 
 Replace `your-codespace-url` with your actual Codespace URL.
@@ -98,7 +99,7 @@ Fill in the following fields before connect:
 **If running locally:**
 
 ```bash
-npx @modelcontextprotocol/inspector uv run gmail_mcp_server_questions.py
+npx @modelcontextprotocol/inspector uv run gmail_mcp_server.py
 ```
 
 The server runs on stdio transport and communicates via JSON-RPC. The MCP Inspector provides a web interface to test and interact with your MCP server.
