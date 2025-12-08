@@ -23,6 +23,8 @@ pydata_mcp_tutorial/
 └── README.md                     # This file
 ```
 
+You will create a codespace and work on `gmail_mcp_server_questions.py` alongside the instructors before starting the following setup.
+
 ## Setup Instructions
 
 ### 1. Install uv
@@ -86,7 +88,12 @@ ALLOWED_ORIGINS=https://your-codespace-url-6274.app.github.dev npx @modelcontext
 
 Replace `your-codespace-url` with your actual Codespace URL.
 
-Inspector Proxy Address: https://your-codespace-url-6277.app.github.dev
+Change both port visibility to public. Open port 6274 link.
+Fill in the following fields before connect:
+- Command: uv
+- Argument: run gmail_mcp_server_questions.py
+- Inspector Proxy Address: https://your-codespace-url-6277.app.github.dev (no / at the end)
+- Proxy Session Token: session token from your terminal.
 
 **If running locally:**
 
