@@ -1,9 +1,8 @@
-# Build Your MCP Server
-
-**PyData Boston 2025 Tutorial**  
-Monday, December 8, 11:00 AM
+# Build Your MCP Server - PyData Boston 2025 Conference Tutorial
 
 **Instructors**: [Chuxin Liu](https://www.linkedin.com/in/chuxin-liu/) and [Yiwen Liu](https://www.linkedin.com/in/yiwen-liu-cssbb-24902016/)
+
+You can also find our **[Slides](https://docs.google.com/presentation/d/1h0KR8MEOGmZzc1qStA_AJiPk2fquLQHw4LpEbtcABnI/edit?usp=sharing)** and **YouTube Recording** (will be updated here once recording is uploaded).
 
 ## Project Description
 
